@@ -118,6 +118,7 @@
          <tr align="center">
             <td>
                <table width="100%" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+                  %%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_top"%%
                   <!--header-->
                   <tr style="height: 15px;">&nbsp;</tr>
                   <tr>
@@ -254,6 +255,7 @@
                      </td>
                   </tr>
                   <tr style="height: 40px;"></tr>
+                    %%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_bottom"%%
                     <!--FOOTER STARTS-->
   <tr>
    <td>
@@ -307,11 +309,11 @@
                         </a>
                         <br>
                         <br>
-                        <a style="text-decoration: none; color: #ffffff;" href="https://www.thestar.com/subscribe" target="_blank">
+                        <!-- <a style="text-decoration: none; color: #ffffff;" href="https://www.thestar.com/subscribe" target="_blank">
                         Become a Star Subscriber
-                        </a>
+                        </a> 
                         <br>
-                        <br>
+                        <br> -->
                         <a style="text-decoration: none; color: #ffffff;" href="http://broadcaster.torstarmarketing.com/dm?id=%%SUBSCRIBER_ID_TAG%%" target="_blank">
                         View in Browser
                         </a>

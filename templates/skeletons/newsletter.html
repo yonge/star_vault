@@ -95,6 +95,7 @@
          <tr align="center">
             <td>
                <table width="100%" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+                %%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_top"%%
                   <!--logo-->
                   <tr style="height: 15px;">&nbsp;</tr>
                   <tr>
@@ -129,6 +130,7 @@
                   <!--PREFACE-->
                   <!--ARTICLES-->
                   <!--CITYHALL-->
+                 %%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_bottom"%%
                   <!--FOOTER STARTS-->
                   <tr>
                      <td>
@@ -137,12 +139,12 @@
                               <td>
                                  <table align="center" bgcolor="#0268a6" width="580" cellpadding="0" cellspacing="0" border="0">
                                     <tr style="height: 30px;"></tr>
-                                    <tr>
+                                    <!-- <tr>
                                        <td align="center">
                                           <a href="https://www.thestar.com/" target="_blank"><img width="200" src="http://newsletter-assets.thestar.com/brands/star/images/logos/thestar_white_400px.png" alt="The Star"></a>
                                        </td>
                                     </tr>
-                                    <tr style="height: 20px;"></tr>
+                                    <tr style="height: 20px;"></tr> -->
                                     <tr>
                                        <td>
                                           <table align="center" cellpadding="0" cellspacing="0" border="0">
@@ -180,11 +182,11 @@
                                           <a style="text-decoration: none; color: #ffffff;" href="https://thestar.com/newsletters?utm_source=newsletter&utm_medium=footer&utm_campaign=signuplink" target="_blank">
                                              Sign Up for More Newsletters and Email Alerts
                                           </a>
-                                          <br>
+                                        <!--   <br>
                                           <br>
                                           <a style="text-decoration: none; color: #ffffff;" href="https://www.thestar.com/subscribe" target="_blank">
                                           Become a Star Subscriber
-                                          </a>
+                                          </a> -->
                                           <br>
                                           <br>
                                           <a style="text-decoration: none; color: #ffffff;" href="http://broadcaster.torstarmarketing.com/dm?id=%%SUBSCRIBER_ID_TAG%%" target="_blank">
