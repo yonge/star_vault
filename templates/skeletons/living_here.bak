@@ -50,7 +50,9 @@
          *[x-apple-data-detectors], .x-gmail-data-detectors, .x-gmail-data-detectors *, .aBn {
          text-decoration: underline !important;
          }
-
+         a {
+         text-decoration: none !important;
+         }
          a.visited {
          text-decoration: none !important;
          color: #000000;
@@ -84,7 +86,7 @@
          }
          a.underline {
          text-decoration: underline !important;
-	 color: #27B2EA !important;
+         color: #0b6bbc !important;
          }
 	@media only screen and (max-width: 500px) {
 		img.no-resize {
@@ -208,17 +210,36 @@
                         </table>
                      </td>
                   </tr>
+                            <tr style="height: 15px;"></tr>
+                
 <!--ad-->
-||section4||
-                            <tr style="height: 20px;"></tr>
-
-	                <!--rule-intro--> 
+<tr>
+                     <td>
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                           <tr>
+                              <td style="width: 30px;">&nbsp;</td>
+                              <td>
+                                 <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                       <td>
+                                          <span class="font-bigger" style="font-family: times new roman, times, serif; letter-spacing: 0.2px; font-size: 19px;  color: #333333;">
+                                             ||section4||
+                                          </span>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                              <td style="width: 30px;">&nbsp;</td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+		<tr style= "height: 40px;"></tr>
+                <!--rule-intro--> 
 		<!--GOOD WEEK HEADER-->
 		<!--GOOD WEEK STORY-->
 		<!--rule-gw-->
-                <!--CROSS PROMO STARTS-->
                 <!--%%article "living_here_crosspromo"%%-->
-                <!--CROSS PROMO ENDS-->
 		<!--BAD WEEK HEADER-->
 		<!--BAD WEEK STORY-->
 		<!--rule-bw-->
@@ -229,16 +250,6 @@
 		<!--rule-si-->
 		<!--SHOULD I-->
 		<!--rule-so-->
-                  <tr>
-                     <td>
-                        <table cellspacing="0" cellpadding="0" border="0" align="center">
-                           <tr>
-                               <td align="center" valign="top" width="520" height="1" style="background-color: #929292; border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 1px;"><!--[if gte mso 15]>&nbsp;<![endif]--></td>
-                           </tr>
-                       </table>
-                    </td>
-                  </tr>
-                  <tr style="height: 25px;"></tr>
                   <tr>
                      <td>
                         <table cellspacing="0" cellpadding="0" border="0">
@@ -261,7 +272,28 @@
                         </table>
                      </td>
                   </tr>
-
+                  <tr style="height: 25px;"></tr>
+                  <tr>
+                     <td>
+                        <table cellspacing="0" cellpadding="0" border="0">
+                           <tr>
+                              <td style="width: 30px;">&nbsp;</td>
+                              <td>
+                                 <table cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                       <td>
+                                          <span class="font-bigger" style=" font-family: times new roman, times, serif; letter-spacing: 0.2px; font-size: 19px;  line-height: 24px; color: #333333;">
+                                             ||section52||
+                                          </span>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                              <td style="width: 30px;">&nbsp;</td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
                   <tr style="height: 40px;"></tr>
                    <!-- insert dynamic subscribe banner bottom -->
                   %%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "dynamic_banner_bottom_test"%%
