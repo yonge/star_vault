@@ -126,6 +126,9 @@
          <tr align="center">
             <td>
                <table width="100%" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+                <!-- insert dynamic subscribe banner top -->
+                %%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_top"%%
+                <!-- end of dynamic banner -->
                  <!--header-->
                   <tr style="height: 15px;">&nbsp;</tr>
                   <tr>
@@ -145,6 +148,7 @@
                   <!--header ends-->
                   <!--title-->
                   <tr>
+
                      <td>
                         <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
                            <tr>
@@ -259,6 +263,9 @@
                      </td>
                   </tr>
                   <tr style="height: 40px;"></tr>
+                  <!-- insert dynamic subscribe banner bottom -->
+                  %%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_bottom"%% 
+                  <!-- end of dynamic subscribe banner bottom -->
                     <!--FOOTER STARTS-->
   <tr>
    <td>
@@ -267,12 +274,6 @@
             <td>
                <table align="center" bgcolor="#0268a6" width="580" cellpadding="0" cellspacing="0" border="0">
                   <tr style="height: 30px;"></tr>
-                  <!-- <tr>
-                     <td align="center">
-                        <a href="https://www.thestar.com/" target="_blank"><img width="200" src="http://newsletter-assets.thestar.com/brands/star/images/logos/thestar_white_400px.png" alt="The Star"></a>
-                     </td>
-                  </tr> -->
-                  <!-- <tr style="height: 20px;"></tr> -->
                   <tr>
                      <td>
                         <table align="center" cellpadding="0" cellspacing="0" border="0">
@@ -310,9 +311,11 @@
                         <a style="text-decoration: none; color: #ffffff;" href="https://thestar.com/newsletters?utm_source=newsletter&utm_medium=footer&utm_campaign=signuplink" target="_blank">
                            Sign Up for More Newsletters and Email Alerts
                         </a>
-                         <!-- <a style="text-decoration: none; color: #ffffff;" href="https://www.thestar.com/subscribe" target="_blank"> 
+			<!--<br>
+			<br>
+                        <a style="text-decoration: none; color: #ffffff;" href="https://www.thestar.com/subscribe" target="_blank"> 
                         Become a Star Subscriber
-                        </a> --> 
+                        </a>-->  
                         <br>
                         <br>
                         <a style="text-decoration: none; color: #ffffff;" href="http://broadcaster.torstarmarketing.com/dm?id=%%SUBSCRIBER_ID_TAG%%" target="_blank">
@@ -361,7 +364,7 @@
                            <tr>
                               <td style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: 12px; letter-spacing: 1px; line-height: 17px;" align="center">
                                  Toronto Star Newspapers Limited. <br>
-                                 One Yonge Street, 4th Floor, Toronto, ON M5E 1E6. 416-367-2000
+                                 8 Spadina Avenue, 10th Floor, Toronto, ON M5V 0S8. 416-367-2000
                               </td>
                            </tr>
                            <tr>
