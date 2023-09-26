@@ -1,3 +1,30 @@
+<tr bgcolor="#FFFFFF" style="height: 20px;">
+              <td></td>&nbsp;
+            </tr>
+            <tr>
+              <td style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                <table bgcolor="#FFFFFF" width="100%" border="0" cellspacing="0" cellpadding="0" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse !important;">
+                  <tr>
+                    <td style="width: 30px;">&nbsp;</td>
+                    <td>
+                      <table border="0" cellspacing="0" cellpadding="0" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse !important;">
+                        <tr>
+                          <td>
+                            <img src="http://newsletter-assets.thestar.com/brands/star/newsletters/daily_star/images/verticle_line_black_7x39.jpg" alt="">
+                          </td>
+                          <td style="width: 20px;">&nbsp;</td>
+                          <td align="left">
+                            <span class="section-font" style="margin: 0; font-size: 18px; font-family: Arial, Helvetica, sans-serif; color: #333333; letter-spacing: 2px; font-weight: bold;"> NOW TRY </span>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+<tr bgcolor="#FFFFFF" style="height: 10px;">
+            </tr>
 <tr>
    <td>
      <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" bgcolor="#FFFFFF">
@@ -17,7 +44,7 @@
                          </tr>
                          <tr>
                            <td align="right">
-                             <span class="caption" style="font-family: 'Times New Roman', Times, serif; font-size: 10px; color: #777777; letter-spacing: 0.5px; font-style: italic;"> ||photocredits|| </span>
+                             <span class="caption" style="font-family: 'Times New Roman', Times, serif; font-size: 10px; color: #777777; letter-spacing: 0.5px; font-style: italic;"> ||credits|| </span>
                            </td>
                          </tr>
                        </table>
@@ -75,3 +102,4 @@
   </td>
 </tr>
 <tr style="height: 30px;"></tr>
+
