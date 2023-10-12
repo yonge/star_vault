@@ -129,6 +129,9 @@
                 <!-- insert dynamic subscribe banner top -->
                 %%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_top"%%
                 <!-- end of dynamic banner -->
+                <!-- insert dynamic ad banner top -->
+               %%article "smart_money_ad_top"%%
+                <!-- end of ad banner -->
                  <!--header-->
                   <tr style="height: 15px;">&nbsp;</tr>
                   <tr>
@@ -229,7 +232,10 @@
                   <!-- insert dynamic subscribe banner bottom -->
                   %%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_bottom"%% 
                   <!-- end of dynamic subscribe banner bottom -->
-                    <!--FOOTER STARTS-->
+                  <!-- insert dynamic ad banner top -->
+                  %%article "smart_money_ad_bottom"%%
+                  <!-- end of ad banner -->
+                  <!--FOOTER STARTS-->
   <tr>
    <td>
       <table class="deviceWidth" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" align="center" width="580">
