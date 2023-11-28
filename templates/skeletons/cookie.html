@@ -7,7 +7,7 @@
       <meta name="x-apple-disable-message-reformatting">
       <title>First Up</title>
       <style type="text/css">
-       *[x-apple-data-detectors], .x-gmail-data-detectors, .x-gmail-data-detectors *, .aBn {
+         *[x-apple-data-detectors], .x-gmail-data-detectors, .x-gmail-data-detectors *, .aBn {
          text-decoration: underline !important;
          }
          body {
@@ -50,7 +50,9 @@
          *[x-apple-data-detectors], .x-gmail-data-detectors, .x-gmail-data-detectors *, .aBn {
          text-decoration: underline !important;
          }
-
+         a {
+         text-decoration: none !important;
+         }
          a.visited {
          text-decoration: none !important;
          color: #000000;
@@ -84,21 +86,12 @@
          }
          a.underline {
          text-decoration: underline !important;
-	 color: #27B2EA !important;
+         color: #0b6bbc !important;
          }
-	@media only screen and (max-width: 500px) {
-		img.no-resize {
-		display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; width: 100%; min-width: 300px; max-width: 1400px;
-		}
-	}
-        @media only screen and (min-width: 500px) {
-                img.no-resize {
-		display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; width: 100%; min-width: 300px; max-width: 300px;
-                }
-        } 
+         }
       </style>
    </head>
-   <body class="deviceWidth" yahoo bgcolor="#e7e7e7" width="580" >
+   <body style="background-color:#e7e7e7;" class="deviceWidth" yahoo bgcolor="#e7e7e7" width="580" >
       <table class="deviceWidth" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" align="center" width="580">
             <tr>
                <td>
@@ -124,10 +117,7 @@
          <tr align="center">
             <td>
                <table width="100%" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
-                <!-- insert dynamic subscribe banner top -->
-              <!--%%if $registrant_type = "paid" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_top"%%--> 
-              <!-- end dynamic subscribe banner top -->
-                  <!--header-->
+               
                   <tr style="height: 15px;">&nbsp;</tr>
                   <tr>
                      <td>
@@ -151,9 +141,7 @@
                            <tr>
                               <td style="width: 15px;">&nbsp;</td>
                               <td align="center">
-                                 <span style="font-family: arial, helvetica, sans-serif; font-size: 55px; letter-spacing: 15px; text-transform: uppercase; font-weight: bold;">
-                                    ||title||
-                                 </span>
+                                <img width=490 src="https://s3-alpha-sig.figma.com/img/8a40/8c6d/12d50eef40b9a67fe30b481a552b4293?Expires=1701043200&Signature=maUpXfYtFqpYd41vYtUV3ure-V59FLwwXdoZF-T-kWttVtbKfNsF1cfHKv-5HpNbfA6XN44SHl3FRaDb5fdJiPe-e4WnknNwcdYSdFoIA~9iE2ZrcbkOvv-fcsCtxWsTLgS0EVWTiRZw3ueaR29thbXqKhdtojClHZJFv03ZSdqAH9AdUNqvTRZtX6F6dIUR3Old3FRC1OQKR7lVXCT~yAaYVTEbhDTTqENnfLrMyZZw6DoXccnj~skKAD8h2LwBwOThWJNtVvyP8Kyezk6lUfNg8ia3M~hGX-qmxQFCmFNlvmkfQbVYJOGAUYXfKFXPJtZzENh-7nh2G2oEdfYVnw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
                               </td>
                            </tr>
                         </table>
@@ -162,110 +150,55 @@
                   <!--Author images-->
                   <tr style="height: 15px;">&nbsp;</tr>    <!--new spacing here-->
                   <tr>
-                     <td>
-                        <table cellspacing="0" cellpadding="0" border="0" align="center">
-                           <tr>
-                              <td>
-                                 <table cellspacing="0" cellpadding="0" border="0">
-                                    <tr>
-                                       <td>
-                                          <img width="55" src="||profile_picture||" alt="By ||display_name||">
-                                       </td>
-                                       <td style="width: 10px;">&nbsp;</td>
-                                       <td>
-                                          <span class="font-bigger" style="font-family: times new roman, times, serif; letter-spacing: 0.2px; font-size: 19px;  color: #333333;">
-                                             By ||display_name||
-                                          </span>
-                                       </td>
-                                    </tr>
-                                 </table>
-                              </td>
-                           </tr>
-                        </table>
-                     </td>
-                  </tr>
-                  <tr style="height: 30px;">&nbsp;</tr>      <!--new spacing here-->
-                  <!--introduction-->
-                  <tr>
-                     <td>
-                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                           <tr>
-                              <td style="width: 30px;">&nbsp;</td>
-                              <td>
-                                 <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                                    <tr>
-                                       <td>
-
-<span class="font-bigger" style="font-family: times new roman, times, serif; letter-spacing: 0.2px; font-size: 19px;  color: #333333;">
-                                             ||section3||
-</span>
-                                       </td>
-                                    </tr>
-                                 </table>
-                              </td>
-                              <td style="width: 30px;">&nbsp;</td>
-                           </tr>
-                        </table>
-                     </td>
-                  </tr>
-<!--ad-->
-||section4||
-                            <tr style="height: 20px;"></tr>
-
-	                <!--rule-intro--> 
-		<!--GOOD WEEK HEADER-->
-		<!--GOOD WEEK STORY-->
-		<!--rule-gw-->
-                <!--CROSS PROMO STARTS-->
-                <!--%%article "living_here_crosspromo"%%-->
-                <!--CROSS PROMO ENDS-->
-		<!--BAD WEEK HEADER-->
-		<!--BAD WEEK STORY-->
-		<!--rule-bw-->
-		<!--TRENDING-->
-	<!--TRENDING STORY-->	
-		<!--rule-loc-->
-		<!--LOCATION-->
-		<!--rule-si-->
-		<!--SHOULD I-->
-		<!--rule-so-->
-                  <tr>
-                     <td>
-                        <table cellspacing="0" cellpadding="0" border="0" align="center">
-                           <tr>
-                               <td align="center" valign="top" width="520" height="1" style="background-color: #929292; border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 1px;"><!--[if gte mso 15]>&nbsp;<![endif]--></td>
-                           </tr>
+                    <td>
+                       <table cellspacing="0" cellpadding="0" border="0" align="center">
+                          <tr>
+                             <td>
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                   <tr>
+                                      <td>
+                                         <span  id="section1" class="font-bigger tinymce-paragraph" style="color: #000; /* newsletters/Section */ font-family: Arial; font-size: 18px; font-style: normal; font-weight: 700; line-height: 15px; /* 83.333% */ letter-spacing: 2px; text-transform: uppercase;">
+                                            ||section1||
+                                         </span>
+                                      </td>
+                                   </tr>
+                                </table>
+                             </td>
+                          </tr>
                        </table>
                     </td>
-                  </tr>
-                  <tr style="height: 25px;"></tr>
+                 </tr>
+                  <tr style="height: 30px;">&nbsp;</tr>      <!--new spacing here-->
+                  <!--introduction-->
+                  <!--INTRO-->
+                  <!--RECIPE-->
+                  <!--CONTENT-->
+                  <!--SCORE-->
+                  <!--GOG-->
+                  <!--PREVIOUSLY-->
+                   
                   <tr>
-                     <td>
-                        <table cellspacing="0" cellpadding="0" border="0">
-                           <tr>
-
-                              <td style="width: 30px;">&nbsp;</td>
-                              <td>
-                                 <table cellspacing="0" cellpadding="0" border="0">
-                                    <tr>
-                                       <td>
-                                          <span class="font-bigger" style=" font-family: times new roman, times, serif; letter-spacing: 0.2px; font-size: 19px;  line-height: 24px; color: #333333;">
-                                             ||section51||
-                                          </span>
+                    <td>
+                       <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                             <td style="width: 30px;">&nbsp;</td>
+                             <td>
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                   <tr>
+<td>
+   <div id="section29" class="font-bigger tinymce-paragraph" style="color: var(--bodyPrimary, #333);font-family: Times New Roman; font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
+       ||section29||
+ </div>
                                        </td>
-                                    </tr>
-                                 </table>
-                              </td>
-                              <td style="width: 30px;">&nbsp;</td>
-                           </tr>
-                        </table>
-                     </td>
-                  </tr>
-
-                  <tr style="height: 20px;"></tr>
-                   <!-- insert dynamic subscribe banner bottom -->
-                  <!--%%if $registrant_type = "paid" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_bottom"%%-->
-                  <!-- end of dynamic subscribe banner bottom -->
+                                   </tr>
+                                </table>
+                             </td>
+                             <td style="width: 30px;">&nbsp;</td>
+                          </tr>
+                       </table>
+                    </td>
+                 </tr>
+                  <tr style="height:40px;"></tr>
                     <!--FOOTER STARTS-->
   <tr>
    <td>
@@ -314,7 +247,7 @@
                         <a style="text-decoration: none; color: #ffffff" href="%%UNSUB_HREF%%">Unsubscribe From This Newsletter</a>
                         <br>
                         <br>
-                        <a style="text-decoration: none; color: #ffffff;" href="https://www.thestar.com/newsletters/?utm_source=newsletter&utm_medium=footer&utm_campaign=signuplink" target="_blank">
+                        <a style="text-decoration: none; color: #ffffff;" href="https://thestar.com/newsletters?utm_source=newsletter&utm_medium=footer&utm_campaign=signuplink" target="_blank">
                            Sign Up for More Newsletters and Email Alerts
                         </a>
                          <!-- <a style="text-decoration: none; color: #ffffff;" href="https://www.thestar.com/subscribe" target="_blank"> 
@@ -326,6 +259,32 @@
                         View in Browser
                         </a>
                         </span>
+                     </td>
+                  </tr>
+                  <tr style="height: 30px;"></tr>
+                  <tr>
+                     <td>
+                        <table align="center" cellpadding="0" cellspacing="0" border="0">
+                           <tr>
+                              <td>
+                                 <table align="center" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                       <td align="center">
+                                          <a href="https://www.facebook.com/torontostar" target="_blank"><img width="30" src="http://newsletter-assets.thestar.com/brands/star/images/social/facebook_200px.png" alt="Facebook"></a>
+                                       </td>
+                                       <td style="width: 15px">&nbsp;</td>
+                                       <td align="center">
+                                          <a href="https://www.instagram.com/thetorontostar" target="_blank"><img width="30" src="http://newsletter-assets.thestar.com/brands/star/images/social/instagram_200px.png" alt="Instagram"></a>
+                                       </td>
+                                       <td style="width: 15px">&nbsp;</td>
+                                       <td align="center">
+                                          <a href="https://twitter.com/TorontoStar" target="_blank"><img width="30" src="http://newsletter-assets.thestar.com/brands/star/images/social/twitter_200px.png" alt="Twitter"></a>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
                      </td>
                   </tr>
                   <tr style="height: 40px;"></tr>
@@ -342,7 +301,7 @@
                            <tr>
                               <td style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: 12px; letter-spacing: 1px; line-height: 17px;" align="center">
                                  Toronto Star Newspapers Limited. <br>
-                                 8 Spadina Avenue, 10th Floor, Toronto, ON M5V 0S8. 416-367-2000
+                                 One Yonge Street, 4th Floor, Toronto, ON M5E 1E6. 416-367-2000
                               </td>
                            </tr>
                            <tr>

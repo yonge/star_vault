@@ -1,14 +1,14 @@
   <!--title of article-->
 
-  <tr >
-    <td style= "padding-bottom:15px;" >
+  <tr>
+    <td>
        <table bgcolor="#DCF3FF" width="100%" cellspacing="0" cellpadding="0" border="0">
-          <tr >
+          <tr>
              <td style="width: 30px;">&nbsp;</td>
-             <td >
+             <td>
                 <table cellspacing="0" cellpadding="0" border="0">
-                   <tr >
-                      <td >
+                   <tr>
+                      <td>
                          <span class="font-bigger" style="margin: 0; padding: 0; font-family: times new roman, times, serif; letter-spacing: 0.2px; font-size: 19px;  line-height: 24px; color: #333333;">
                             ||paragraph1||
                          </span>
@@ -23,8 +23,7 @@
   </tr>
 </table>
 </td>
-
 </tr>      
  <tr style = "height: 30px;"></tr>
 
-<!--trending ends-->  
+  

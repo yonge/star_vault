@@ -37,7 +37,7 @@
          a.white-headline {
             text-decoration: none !important;
             color: #ffffff !important;
-         }
+         }	
          a.black-headline {
             text-decoration: none !important;
             color: #000000 !important;
@@ -50,7 +50,9 @@
          *[x-apple-data-detectors], .x-gmail-data-detectors, .x-gmail-data-detectors *, .aBn {
          text-decoration: underline !important;
          }
-
+         a {
+         text-decoration: none !important;
+         }
          a.visited {
          text-decoration: none !important;
          color: #000000;
@@ -84,7 +86,7 @@
          }
          a.underline {
          text-decoration: underline !important;
-	 color: #27B2EA !important;
+         color: #0b6bbc !important;
          }
 	@media only screen and (max-width: 500px) {
 		img.no-resize {
@@ -125,9 +127,12 @@
             <td>
                <table width="100%" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
                 <!-- insert dynamic subscribe banner top -->
-              <!--%%if $registrant_type = "paid" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_top"%%--> 
-              <!-- end dynamic subscribe banner top -->
-                  <!--header-->
+                <!--%%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_top"%%-->
+                <!-- end of dynamic banner -->
+                <!-- insert dynamic ad banner top -->
+               <!--%%article "smart_money_ad_top"%%-->
+                <!-- end of ad banner -->
+                 <!--header-->
                   <tr style="height: 15px;">&nbsp;</tr>
                   <tr>
                      <td>
@@ -146,6 +151,7 @@
                   <!--header ends-->
                   <!--title-->
                   <tr>
+
                      <td>
                         <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
                            <tr>
@@ -184,73 +190,34 @@
                         </table>
                      </td>
                   </tr>
-                  <tr style="height: 30px;">&nbsp;</tr>      <!--new spacing here-->
+                  <tr style="height: 30px;"></tr>      <!--new spacing here-->
                   <!--introduction-->
-                  <tr>
-                     <td>
-                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                           <tr>
-                              <td style="width: 30px;">&nbsp;</td>
-                              <td>
-                                 <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                                    <tr>
-                                       <td>
-
-<span class="font-bigger" style="font-family: times new roman, times, serif; letter-spacing: 0.2px; font-size: 19px;  color: #333333;">
-                                             ||section3||
-</span>
-                                       </td>
-                                    </tr>
-                                 </table>
-                              </td>
-                              <td style="width: 30px;">&nbsp;</td>
-                           </tr>
-                        </table>
-                     </td>
-                  </tr>
-<!--ad-->
-||section4||
-                            <tr style="height: 20px;"></tr>
-
-	                <!--rule-intro--> 
-		<!--GOOD WEEK HEADER-->
-		<!--GOOD WEEK STORY-->
-		<!--rule-gw-->
-                <!--CROSS PROMO STARTS-->
-                <!--%%article "living_here_crosspromo"%%-->
-                <!--CROSS PROMO ENDS-->
-		<!--BAD WEEK HEADER-->
-		<!--BAD WEEK STORY-->
-		<!--rule-bw-->
-		<!--TRENDING-->
-	<!--TRENDING STORY-->	
-		<!--rule-loc-->
-		<!--LOCATION-->
-		<!--rule-si-->
-		<!--SHOULD I-->
-		<!--rule-so-->
-                  <tr>
-                     <td>
-                        <table cellspacing="0" cellpadding="0" border="0" align="center">
-                           <tr>
-                               <td align="center" valign="top" width="520" height="1" style="background-color: #929292; border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 1px;"><!--[if gte mso 15]>&nbsp;<![endif]--></td>
-                           </tr>
-                       </table>
-                    </td>
-                  </tr>
-                  <tr style="height: 25px;"></tr>
-                  <tr>
+		<!--picture-->
+		<!--intro-->
+                  
+                  <!--TOP STORIES SECTION-->
+                  <!--TOP STORY HEADER-->
+                  <!--TOP STORY-->
+		  <!--END OF TOP STORIES SECTION-->
+                  <!--CROSS PROMO STARTS-->
+                  <!--%%article "save_it_crosspromo"%%-->
+                  <!--CROSS PROMO ENDS--> 
+                  <!--WATCH FOR STARTS-->
+                  <!--WATCH FOR-->
+                  <!--WATCH FOR SECTION ENDS-->
+		<!--IYC-->
+                <!--BOT--> 
+	<tr>
                      <td>
                         <table cellspacing="0" cellpadding="0" border="0">
                            <tr>
-
                               <td style="width: 30px;">&nbsp;</td>
                               <td>
                                  <table cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                        <td>
                                           <span class="font-bigger" style=" font-family: times new roman, times, serif; letter-spacing: 0.2px; font-size: 19px;  line-height: 24px; color: #333333;">
-                                             ||section51||
+                                             ||section14||
                                           </span>
                                        </td>
                                     </tr>
@@ -261,12 +228,14 @@
                         </table>
                      </td>
                   </tr>
-
-                  <tr style="height: 20px;"></tr>
-                   <!-- insert dynamic subscribe banner bottom -->
-                  <!--%%if $registrant_type = "paid" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_bottom"%%-->
+                  <tr style="height: 40px;"></tr>
+                  <!-- insert dynamic subscribe banner bottom -->
+                  <!--%%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_bottom"%%--> 
                   <!-- end of dynamic subscribe banner bottom -->
-                    <!--FOOTER STARTS-->
+                  <!-- insert dynamic ad banner top -->
+                  <!--%%article "smart_money_ad_bottom"%%-->
+                  <!-- end of ad banner -->
+                  <!--FOOTER STARTS-->
   <tr>
    <td>
       <table class="deviceWidth" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" align="center" width="580">
@@ -274,12 +243,6 @@
             <td>
                <table align="center" bgcolor="#0268a6" width="580" cellpadding="0" cellspacing="0" border="0">
                   <tr style="height: 30px;"></tr>
-                  <!-- <tr>
-                     <td align="center">
-                        <a href="https://www.thestar.com/" target="_blank"><img width="200" src="http://newsletter-assets.thestar.com/brands/star/images/logos/thestar_white_400px.png" alt="The Star"></a>
-                     </td>
-                  </tr> -->
-                  <!-- <tr style="height: 20px;"></tr> -->
                   <tr>
                      <td>
                         <table align="center" cellpadding="0" cellspacing="0" border="0">
@@ -317,9 +280,11 @@
                         <a style="text-decoration: none; color: #ffffff;" href="https://www.thestar.com/newsletters/?utm_source=newsletter&utm_medium=footer&utm_campaign=signuplink" target="_blank">
                            Sign Up for More Newsletters and Email Alerts
                         </a>
-                         <!-- <a style="text-decoration: none; color: #ffffff;" href="https://www.thestar.com/subscribe" target="_blank"> 
+			<!--<br>
+			<br>
+                        <a style="text-decoration: none; color: #ffffff;" href="https://www.thestar.com/subscribe" target="_blank"> 
                         Become a Star Subscriber
-                        </a> --> 
+                        </a>-->  
                         <br>
                         <br>
                         <a style="text-decoration: none; color: #ffffff;" href="http://broadcaster.torstarmarketing.com/dm?id=%%SUBSCRIBER_ID_TAG%%" target="_blank">
@@ -376,4 +341,3 @@
       </table>
    </body>
 </html>
-

@@ -127,7 +127,7 @@
             <td>
                <table width="100%" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
                 <!-- insert dynamic subscribe banner top -->
-               %%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_top"%%
+              <!--%%if $registrant_type = "paid" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_top"%%-->
                <!-- end dynamic subscribe banner top -->
                   <!--header-->
                   <tr style="height: 15px;">&nbsp;</tr>
@@ -362,7 +362,7 @@
                   </tr>
                   <tr style="height: 40px;"></tr>
                    <!-- insert dynamic subscribe banner bottom -->
-               %%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_bottom"%%
+               <!--%%if $registrant_type = "paid" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_bottom"%%-->
                <!-- end of dynamic subscribe banner bottom -->
 
                     <!--FOOTER STARTS-->
