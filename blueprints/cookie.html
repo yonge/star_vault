@@ -117,10 +117,7 @@
          <tr align="center">
             <td>
                <table width="100%" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
-                <!-- insert dynamic subscribe banner top -->
-               %%if $mpp_sub_id != "" then includearticle "article_dynamic_banner_empty" else includearticle "article_dynamic_banner_top"%%
-               <!-- end dynamic subscribe banner top -->
-                  <!--header-->
+                 <!--header-->
                   <tr style="height: 15px;">&nbsp;</tr>
                   <tr>
                      <td>
@@ -144,7 +141,7 @@
                            <tr>
                               <td style="width: 15px;">&nbsp;</td>
                               <td align="center">
-                                 <img width=490 src="https://s3-alpha-sig.figma.com/img/8a40/8c6d/12d50eef40b9a67fe30b481a552b4293?Expires=1701043200&Signature=maUpXfYtFqpYd41vYtUV3ure-V59FLwwXdoZF-T-kWttVtbKfNsF1cfHKv-5HpNbfA6XN44SHl3FRaDb5fdJiPe-e4WnknNwcdYSdFoIA~9iE2ZrcbkOvv-fcsCtxWsTLgS0EVWTiRZw3ueaR29thbXqKhdtojClHZJFv03ZSdqAH9AdUNqvTRZtX6F6dIUR3Old3FRC1OQKR7lVXCT~yAaYVTEbhDTTqENnfLrMyZZw6DoXccnj~skKAD8h2LwBwOThWJNtVvyP8Kyezk6lUfNg8ia3M~hGX-qmxQFCmFNlvmkfQbVYJOGAUYXfKFXPJtZzENh-7nh2G2oEdfYVnw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+                                 <img width=490 src="http://newsletter-assets.thestar.com.s3.amazonaws.com/brands/star/newsletters/cookie/cookie_calendar_title.png">
                               </td>
                            </tr>
                         </table>
@@ -160,7 +157,7 @@
                                  <table cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                        <td>
-                                          <div  id="section1" class="font-bigger tinymce-paragraph" style="color: #000; /* newsletters/Section */ font-family: Arial; font-size: 18px; font-style: normal; font-weight: 700; line-height: 15px; /* 83.333% */ letter-spacing: 2px; text-transform: uppercase;">
+                                          <div  id="section1" class="font-bigger tinymce-paragraph-no-root" style="color: #000; /* newsletters/Section */ font-family: Arial; font-size: 18px; font-style: normal; font-weight: 700; line-height: 15px; /* 83.333% */ letter-spacing: 2px; text-transform: uppercase;">
                                              ||section1||
                                           </div>
                                        </td>
@@ -216,14 +213,20 @@
                                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                        <td>
-                                          <div  id="section2" class="font-bigger tinymce-paragraph" style=" margin-bottom: 10px; color: var(--bodyPrimary, #333);font-family: Arial;font-size: 15px;font-style: normal;font-weight: 700;line-height: normal;letter-spacing: 1.5px;">
+<div id="section42" class="font-bigger tinymce-paragraph-no-root" style=" margin-bottom: 10px; color: var(--bodyPrimary, #333);font-family: arial;font-size: 15px;font-style: normal;font-weight: 700;line-height: normal; letter-spacing:1.5px;">
+                             ||section42||
+                         </div>
+                                          <div  id="section2" class="font-bigger tinymce-paragraph-no-root" style=" margin-bottom: 10px; color: var(--bodyPrimary, #333);font-family: Times New Roman;font-size: 19px;font-style: normal;font-weight: 400;line-height: normal;letter-spacing: 1.5px;">
                                               ||section2||
                                           </div>
                                        </td>
-                                        <td>
-                                        	<div id="section3" class="image-default" width=109 height=109 border-radius=109  style="border-radius: 109px; width:109px; height:109px; margin-left: 20px;" >
+                                        <td style="width: 100px;">
+<span style="font-size: 10px; color: #d6d6c2;"><em>Profile Image size 109x109</em></span>						
+                                        	<div id="section3" class="image-default-109" width=109    style="border-radius: 190px; width:109px; margin-left: 20px;" >
+
                                                 ||section3||
                                             </div>
+<!--img style = "margin-left:20px;" width="109" src="||profile_picture||" alt="By ||display_name||"-->
                                         </td>
                                     </tr>
                                  </table>
@@ -277,7 +280,10 @@
                                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                        <td>
-                                          <div  id="section4" class="font-bigger tinymce-paragraph" style=" margin-bottom: 10px; color: var(--bodyPrimary, #333);font-family: Arial;font-size: 15px;font-style: normal;font-weight: 700;line-height: normal;letter-spacing: 1.5px;">
+<div id="section43" class="font-bigger tinymce-paragraph-no-root" style=" margin-bottom: 10px; color: var(--bodyPrimary, #333);font-family: arial;font-size: 15px;font-style: normal;font-weight: 700;line-height: normal; letter-spacing:1.5px;">
+                             ||section43||
+                         </div>
+                                          <div  id="section4" class="font-bigger tinymce-paragraph-no-root" style=" margin-bottom: 10px; color: var(--bodyPrimary, #333);font-family: Times New Roman; font-size: 19px;font-style: normal;font-weight: 400;line-height: normal;letter-spacing: 1.5px;">
                                               ||section4||
                                           </div>
                                        </td>
@@ -297,11 +303,11 @@
          <table style="width: 100%; height: 100%;">
              <tr>
                  <td align="center" valign="middle">
-                     <a style="display: table; width: 100%; height: 100%; text-decoration: none;" href="||url||" target="_blank">
-                         <div style="display: table-cell; vertical-align: middle;">
-                             <img src="https://newsletter-assets.thestar.com/brands/star/newsletters/travel/readmore_cta_x3.png" alt="" style="display: inline-block;" width = "180" height = "auto">
-                         </div>
-                     </a>
+<span style="font-size: 10px; color: #d6d6c2;"><em>Recipe button size 180x40</em></span>
+                    <div id="section30" class="image-default-109" width="180" height="40">
+
+                        ||section30||
+                       </div> 
                  </td>
              </tr>
          </table>
@@ -319,7 +325,8 @@
               <table cellspacing="0" cellpadding="0" border="0" width="520">
                  <tr>
                     <td align="center">
-                       <div id="section5" class="image-default-580" width="580" height="400">
+<span style="font-size: 10px; color: #d6d6c2;"><em>Cookie Image 580x400</em></span>
+                       <div id="section5" class="image-default-109" width="580" height="400">
                         ||section5||
                        </div>
                     </td>
@@ -375,7 +382,7 @@
                                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                        <td>
-                                           <div id="section7" class="font-bigger tinymce-paragraph"style="color: var(--bodyPrimary, #333);/* newsletters/Body */font-family: Times New Roman;font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
+                                           <div id="section7" class="font-bigger tinymce-paragraph-no-root"style="color: var(--bodyPrimary, #333);/* newsletters/Body */font-family: Times New Roman;font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
                                             ||section7||
                                            </div>
                                        </td>
@@ -400,7 +407,7 @@
                                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                        <td>
-                                        <div id="section8" class="font-bigger tinymce-paragraph"style="color: var(--bodyPrimary, #333);/* newsletters/Body */font-family: Times New Roman;font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
+                                        <div id="section8" class="font-bigger tinymce-paragraph-no-root"style="color: var(--bodyPrimary, #333);/* newsletters/Body */font-family: Times New Roman;font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
                                             ||section8||
                                            </div>
                                        </td>
@@ -423,16 +430,16 @@
                                 <table cellspacing="0" cellpadding="0" border="0" width="520">
                                    <tr>
                                       <td align="center">
-                                         <div id="section9" class="image-default" width="580" height="400">
+                                         <div id="section9" class="image-default-109" width="580" height="400">
                                           ||section9||
                                          </div>
                                       </td>
                                    </tr>
                                    <tr>
                                       <td align="right">
-                                         <span id="section10" class="caption photocredits" style="margin: 0; font-family: 'Times New Roman', Times, serif; font-size: 10px; color: #777777; letter-spacing: 0.5px; font-style: italic;">
+                                         <div id="section10" class="caption photocredits" style="margin: 0; font-family: 'Times New Roman', Times, serif; font-size: 10px; color: #777777; letter-spacing: 0.5px; font-style: italic;">
                                            ||section10||
-                                         </span>
+                                         </div>
                                       </td>
                                    </tr>
                                 </table>
@@ -451,7 +458,7 @@
                                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                        <td>
-                                        <div id="section11" class="font-bigger tinymce-paragraph"style="color: var(--bodyPrimary, #333);/* newsletters/Body */font-family: Times New Roman;font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
+                                        <div id="section11" class="font-bigger tinymce-paragraph-no-root"style="color: var(--bodyPrimary, #333);/* newsletters/Body */font-family: Times New Roman;font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
                                             ||section11||
                                            </div>
                                        </td>
@@ -475,16 +482,16 @@
                                     <table cellspacing="0" cellpadding="0" border="0" width="520">
                                        <tr>
                                           <td align="center">
-                                             <div id="section12" class="image-default" width="580" height="400">
+                                             <div id="section12" class="image-default-109" width="580" height="400">
                                               ||section12||
                                              </div>
                                           </td>
                                        </tr>
                                        <tr>
                                           <td align="right">
-                                             <span id="section13" class="caption photocredits" style="margin: 0; font-family: 'Times New Roman', Times, serif; font-size: 10px; color: #777777; letter-spacing: 0.5px; font-style: italic;">
+                                             <div id="section13" class="caption photocredits" style="margin: 0; font-family: 'Times New Roman', Times, serif; font-size: 10px; color: #777777; letter-spacing: 0.5px; font-style: italic;">
                                                ||section13||
-                                             </span>
+                                             </div>
                                           </td>
                                        </tr>
                                     </table>
@@ -505,7 +512,7 @@
                                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                        <td>
-                                        <div id="section14" class="font-bigger tinymce-paragraph"style="color: var(--bodyPrimary, #333);/* newsletters/Body */font-family: Times New Roman;font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
+                                        <div id="section14" class="font-bigger tinymce-paragraph-no-root"style="color: var(--bodyPrimary, #333);/* newsletters/Body */font-family: Times New Roman;font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
                                             ||section14||
                                            </div>
                                        </td>
@@ -530,16 +537,16 @@
                                 <table cellspacing="0" cellpadding="0" border="0" width="520">
                                    <tr>
                                       <td align="center">
-                                         <div id="section15" class="image-default" width="580" height="400">
+                                         <div id="section15" class="image-default-109" width="580" height="400">
                                           ||section15||
                                          </div>
                                       </td>
                                    </tr>
                                    <tr>
                                       <td align="right">
-                                         <span id="section15" class="caption photocredits" style="margin: 0; font-family: 'Times New Roman', Times, serif; font-size: 10px; color: #777777; letter-spacing: 0.5px; font-style: italic;">
-                                           ||section15||
-                                         </span>
+                                         <div id="section16" class="caption photocredits" style="margin: 0; font-family: 'Times New Roman', Times, serif; font-size: 10px; color: #777777; letter-spacing: 0.5px; font-style: italic;">
+                                           ||section16||
+                                         </div>
                                       </td>
                                    </tr>
                                 </table>
@@ -559,7 +566,7 @@
                                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                        <td>
-                                        <div id="section17" class="font-bigger tinymce-paragraph" style="color: var(--bodyPrimary, #333);/* newsletters/Body */font-family: Times New Roman;font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
+                                        <div id="section17" class="font-bigger tinymce-paragraph-no-root" style="color: var(--bodyPrimary, #333);/* newsletters/Body */font-family: Times New Roman;font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
                                             ||section17||
                                            </div>
                                        </td>
@@ -610,7 +617,8 @@
               <table cellspacing="0" cellpadding="0" border="0" width="520">
                  <tr>
                     <td align="center">
-                       <div id="section18" class="image-default" width="100%" height="168" >
+<span style="font-size: 10px; color: #d6d6c2;"><em>Cookie score size 500x168</em></span>
+                       <div id="section18" class="image-default-109" width="100%" height="168" >
                         ||section18||
                        </div>
                     </td>
@@ -633,7 +641,7 @@
                                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                        <td>
-                                                              <div id="section19" class="font-bigger tinymce-paragraph" style="color: var(--bodyPrimary, #333);font-family: Times New Roman; font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
+                                                              <div id="section19" class="font-bigger tinymce-paragraph-no-root" style="color: var(--bodyPrimary, #333);font-family: Times New Roman; font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
                                                                     ||section19||
                                                               </div>
                                        </td>
@@ -652,11 +660,26 @@
          <table style="width: 100%; height: 100%;">
              <tr>
                  <td align="center" valign="middle">
-                     <a style="display: table; width: 100%; height: 100%; text-decoration: none;" href="||url||" target="_blank">
-                         <div style="display: table-cell; vertical-align: middle;">
-                             <img src="https://newsletter-assets.thestar.com/brands/star/newsletters/travel/readmore_cta_x3.png" alt="" style="display: inline-block;" width = "180" height = "auto">
-                         </div>
-                     </a>
+<span style="font-size: 10px; color: #d6d6c2;"><em>Recipe button size 180x40</em></span>
+                   <div id="section31" class="image-default-109" width="180" height="40">
+                        ||section31||
+                       </div> 
+                 </td>
+             </tr>
+         </table>
+     </td>
+ </tr>
+
+                   <tr style="height:20px;"></tr>
+                                      <tr>
+     <td align="center">
+         <table style="width: 100%; height: 100%;">
+             <tr>
+                 <td align="center" valign="middle">
+<span style="font-size: 10px; color: #d6d6c2;"><em>Sponsor Image size 580x156</em></span>
+                   <div id="section41" class="image-default-109" width="100%" >
+                        ||section41||
+                       </div>
                  </td>
              </tr>
          </table>
@@ -674,9 +697,9 @@
                                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
                                        <td>
-                                          <h1 style="color: #0B6BBC;/* newsletters/Section */font-family: Arial;font-size: 18px;font-style: normal;font-weight: 700;line-height: 15px; /* 83.333% */letter-spacing: 2px;text-transform: uppercase;">
-                                             GIVE THE GIFT OF BAKING
-                                          </h1>
+                                          <div id="section40" class="tinymce-basic-no-root" style="color: #0B6BBC;/* newsletters/Section */font-family: Arial;font-size: 18px;font-style: normal;font-weight: 700;line-height: 15px; /* 83.333% */letter-spacing: 2px;text-transform: uppercase;">
+                                             ||section40||
+                                          </div>
                                        </td>
                                     </tr>
                                  </table>
@@ -711,14 +734,15 @@
   <table cellspacing="0" cellpadding="0" border="0" width="250">
       <tr>
           <td>
-            <div id="section20" class="image-default-250" width=250 height=160 >
+<span style="font-size: 10px; color: #d6d6c2;"><em>Sponsor Image size 250x160</em></span>
+            <div id="section20" class="image-default-109" width=250 height=160 >
                 ||section20||
             </div>
           </td>
       </tr>
       <tr>
           <td>
-            <div id="section21" style="width:250px; color: #000; font-family: Times New Roman; font-size: 19px; font-style: normal; font-weight: 400; line-height: 24px; /* 126.316% */ letter-spacing: 0.2px;">
+            <div class = "tinymce-basic-no-root" id="section21" style="width:250px; color: #000; font-family: Times New Roman; font-size: 19px; font-style: normal; font-weight: 400; line-height: 24px; /* 126.316% */ letter-spacing: 0.2px;">
                 ||section21||
             </div>
           </td>
@@ -732,14 +756,15 @@
   <table cellspacing="0" cellpadding="0" border="0" width="250">
       <tr>
           <td>
-            <div id="section22" class="image-default-250" width=250 height=160 >
+<span style="font-size: 10px; color: #d6d6c2;"><em>Sponsor Image size 250x160</em></span>
+            <div id="section22" class="image-default-109" width=250 height=160 >
                 ||section22||
             </div>
           </td>
       </tr>
       <tr>
           <td>
-            <div id="section23" style="width:250px; color: #000; font-family: Times New Roman; font-size: 19px; font-style: normal; font-weight: 400; line-height: 24px; /* 126.316% */ letter-spacing: 0.2px;">
+            <div class = "tinymce-basic-no-root" id="section23" style="width:250px; color: #000; font-family: Times New Roman; font-size: 19px; font-style: normal; font-weight: 400; line-height: 24px; /* 126.316% */ letter-spacing: 0.2px;">
                 ||section23||
             </div>
           </td>
@@ -749,51 +774,127 @@
                        
   </tr>
   <tr style="height:20px;"></tr>
-
                  <tr>
   
                       <td valign="top">
   <table cellspacing="0" cellpadding="0" border="0" width="250">
       <tr>
           <td>
-            <div id="section24" class="image-default-250" width=250 height=160 >
+            <div id="section24" class="image-default-109" width=250 height=160 >
                 ||section24||
             </div>
           </td>
       </tr>
       <tr>
           <td>
-            <div id="section25" style="width:250px; color: #000; font-family: Times New Roman; font-size: 19px; font-style: normal; font-weight: 400; line-height: 24px; /* 126.316% */ letter-spacing: 0.2px;">
+            <div class = "tinymce-basic-no-root" id="section25" style="width:250px; color: #000; font-family: Times New Roman; font-size: 19px; font-style: normal; font-weight: 400; line-height: 24px; /* 126.316% */ letter-spacing: 0.2px;">
                 ||section25||
             </div>
           </td>
       </tr>
   </table>
 </td>
-                     
   <td style="width: 20px;">&nbsp;</td>
-  
                       <td valign="top">
   <table cellspacing="0" cellpadding="0" border="0" width="250">
       <tr>
           <td>
-            <div id="section26" class="image-default-250" width=250 height=160 >
+            <div id="section26" class="image-default-109" width=250 height=160 >
                 ||section26||
             </div>
           </td>
       </tr>
       <tr>
           <td>
-            <div id="section27" style="width:250px; color: #000; font-family: Times New Roman; font-size: 19px; font-style: normal; font-weight: 400; line-height: 24px; /* 126.316% */ letter-spacing: 0.2px;">
+            <div  class = "tinymce-basic-no-root" id="section27" style="width:250px; color: #000; font-family: Times New Roman; font-size: 19px; font-style: normal; font-weight: 400; line-height: 24px; /* 126.316% */ letter-spacing: 0.2px;">
                 ||section27||
             </div>
           </td>
       </tr>
   </table>
-</td>
-                     
+</td> 
 </tr>
 <tr style="height:20px;"></tr>
+
+                 <tr>
+                      <td valign="top">
+  <table cellspacing="0" cellpadding="0" border="0" width="250">
+      <tr>
+          <td>
+            <div id="section32" class="image-default-109" width=250 height=160 >
+                ||section32||
+            </div>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <div class = "tinymce-basic-no-root" id="section33" style="width:250px; color: #000; font-family: Times New Roman; font-size: 19px; font-style: normal; font-weight: 400; line-height: 24px; /* 126.316% */ letter-spacing: 0.2px;">
+                ||section33||
+            </div>
+          </td>
+      </tr>
+  </table>
+</td>
+  <td style="width: 20px;">&nbsp;</td>
+                      <td valign="top">
+  <table cellspacing="0" cellpadding="0" border="0" width="250">
+      <tr>
+          <td>
+            <div id="section34" class="image-default-109" width=250 height=160 >
+                ||section34||
+            </div>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <div  class = "tinymce-basic-no-root" id="section35" style="width:250px; color: #000; font-family: Times New Roman; font-size: 19px; font-style: normal; font-weight: 400; line-height: 24px; /* 126.316% */ letter-spacing: 0.2px;">
+                ||section35||
+            </div>
+          </td>
+      </tr>
+  </table>
+</td>
+</tr>
+<tr style="height: 20px;"></tr>
+                 <tr>
+                      <td valign="top">
+  <table cellspacing="0" cellpadding="0" border="0" width="250">
+      <tr>
+          <td>
+            <div id="section36" class="image-default-109" width=250 height=160 >
+                ||section36||
+            </div>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <div class = "tinymce-basic-no-root" id="section37" style="width:250px; color: #000; font-family: Times New Roman; font-size: 19px; font-style: normal; font-weight: 400; line-height: 24px; /* 126.316% */ letter-spacing: 0.2px;">
+                ||section37||
+            </div>
+          </td>
+      </tr>
+  </table>
+</td>
+  <td style="width: 20px;">&nbsp;</td>
+                      <td valign="top">
+  <table cellspacing="0" cellpadding="0" border="0" width="250">
+      <tr>
+          <td>
+            <div id="section38" class="image-default-109" width=250 height=160 >
+                ||section38||
+            </div>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <div  class = "tinymce-basic-no-root" id="section39" style="width:250px; color: #000; font-family: Times New Roman; font-size: 19px; font-style: normal; font-weight: 400; line-height: 24px; /* 126.316% */ letter-spacing: 0.2px;">
+                ||section39||
+            </div>
+          </td>
+      </tr>
+  </table>
+</td>
+</tr>
 <!--WHAT ELSE FRAME-->
                     
                  </table>
@@ -805,66 +906,52 @@
   </tr>
   <tr style="height: 40px;"></tr>
 
-                                     
-                    <tr>
-                     <td>
-                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                           <tr>
-                              <td style="width: 30px;">&nbsp;</td>
-                              <td>
-                                 <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                                    <tr>
-                                       <td>
-                                          <h1 style="color: #0B6BBC;/* newsletters/Section */font-family: Arial;font-size: 18px;font-style: normal;font-weight: 700;line-height: 15px; /* 83.333% */letter-spacing: 2px;text-transform: uppercase;">
-                                            PREVIOUSLY
-                                          </h1>
-                                       </td>
-                                    </tr>
-                                 </table>
-                              </td>
-                              <td style="width: 30px;">&nbsp;</td>
-                           </tr>
-                        </table>
-                     </td>
-                  </tr>
-                            <tr style="height:20px;"></tr>
-                  <tr>
+<tr>
                      <td>
                         <table cellspacing="0" cellpadding="0" border="0" align="center">
                            <tr>
-                               <td align="center" valign="top" width="520" height="1" style="background-color: #0b6bbc; border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 1px;"><!--[if gte mso 15]>&nbsp;<![endif]--></td>
-                           </tr>
-                       </table>
-                    </td>
-                  </tr>
-                   <tr style="height:20px;"></tr>
-
-                   
-                   
-                   <tr>
-                     <td>
-                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                           <tr>
-                              <td style="width: 30px;">&nbsp;</td>
                               <td>
-                                 <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                 <table cellspacing="0" cellpadding="0" border="0" width="520" bgcolor="#f3f3f3">
                                     <tr>
-<td>
-    <div id="section28" class="font-bigger tinymce-paragraph" style="color: var(--bodyPrimary, #333);font-family: Times New Roman; font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
-        ||section28||
-  </div>
-                                        </td>
+                                       <td style="width: 30px;">&nbsp;</td>
+                                       <td>
+                                          <table cellspacing="0" cellpadding="0" border="0">
+                                             <tr style="height: 30px;"></tr>
+                                             <tr>
+                                                <td>
+<span class="section-font" style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; color: #0b6bbc; letter-spacing: 3px; font-weight: bold;">
+                                PREVIOUSLY
+                                </span>
+                                                </td>
+                                             </tr>
+                                             <tr style="height: 10px;"></tr>
+                                             <tr>
+                                                <td>
+                                                   <img src="http://newsletter-assets.thestar.com.s3.amazonaws.com/brands/star/newsletters/daily_star/images/blue_line_460x1.png" alt="">
+                                                </td>
+                                             </tr>
+                                             <tr style="height: 20px;"></tr>
+                                             <tr>
+                                                <td>
+
+                                                  <div class="tinymce-paragraph-no-root font-bigger" style="color: var(--bodyPrimary, #333);font-family: Times New Roman; font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;" id="section28">
+                                                    ||section28||
+                                                  </div>
+                                                </td>
+                                             </tr>
+                                             <tr style="height: 30px;"></tr>
+                                          </table>
+                                       </td>
+                                       <td style="width: 30px;">&nbsp;</td>
                                     </tr>
                                  </table>
                               </td>
-                              <td style="width: 30px;">&nbsp;</td>
                            </tr>
                         </table>
                      </td>
-                  </tr>
-                   <tr style="height:60px;"></tr>
-                   
-                   
+                  </tr>                                     
+
+<tr style="height: 30px;"></tr>
                    <tr>
                      <td>
                         <table width="100%" cellspacing="0" cellpadding="0" border="0">
@@ -874,7 +961,7 @@
                                  <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
 <td>
-    <div id="section29" class="font-bigger tinymce-paragraph" style="color: var(--bodyPrimary, #333);font-family: Times New Roman; font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
+    <div id="section29" class="font-bigger tinymce-paragraph-no-root" style="color: var(--bodyPrimary, #333);font-family: Times New Roman; font-size: 19px;font-style: normal;font-weight: 400;line-height: 24px; /* 126.316% */letter-spacing: 0.2px;">
         ||section29||
   </div>
                                         </td>
